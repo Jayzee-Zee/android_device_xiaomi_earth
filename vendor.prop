@@ -283,3 +283,4 @@ ro.ril.power_collapse=1
 
 # Thermal
 ro.thermal.iec.enable=true
+

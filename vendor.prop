@@ -279,3 +279,9 @@ ro.ril.power_collapse=1
 # Thermal
 ro.thermal.iec.enable=true
 
+#Fix Scrolling Lag
+debug.sf.disable_client_composition_cache=1
+debug.hwui.skia_atrace_enabled=false
+debug.renderengine.backend=skiaglthreaded
+dalvik.vm.systemuicompilerfilter=speed-profile
+dalvik.vm.systemservercompilerfilter=speed-profile

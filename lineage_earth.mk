@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := rising_earth
+PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -27,16 +27,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
 
-# Inherit some common RisingOS stuff
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="MT6768" \
-    RISING_MAINTAINER="👾FrhnDroid👾"
 
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_NOT_USES_BLUR := true
-TARGET_ENABLE_BLUR := false
-PRODUCT_NO_CAMERA := true
-WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := false
-TARGET_DEFAULT_PIXEL_LAUNCHER := true

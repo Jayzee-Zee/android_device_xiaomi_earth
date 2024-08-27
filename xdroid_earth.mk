@@ -32,5 +32,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
 
-$(call inherit-product, vendor/xdroid/config/common.mk)
+
 

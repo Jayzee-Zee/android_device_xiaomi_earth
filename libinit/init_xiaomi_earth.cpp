@@ -67,7 +67,4 @@ void vendor_load_properties() {
     }
 }
 
-property_override("ro.rising.maintainer", "maintainer") {
-
-}
 

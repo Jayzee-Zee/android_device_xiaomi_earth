@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #ngising
-TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK_SUPPORTED := false
 USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 PRODUCT_NO_CAMERA := true
@@ -27,7 +27,7 @@ TARGET_SUPPORTS_GOOGLE_BATTERY := false
 TARGET_SUPPORTS_CLEAR_CALLING := true
 TARGET_BOOT_ANIMATION_RES := 720
 
-PRODUCT_NAME := aosp_earth
+PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

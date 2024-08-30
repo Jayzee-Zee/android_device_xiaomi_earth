@@ -284,5 +284,3 @@ debug.sf.disable_client_composition_cache=1
 debug.renderengine.backend=skiaglthreaded
 dalvik.vm.systemuicompilerfilter=speed-profile
 dalvik.vm.systemservercompilerfilter=speed-profile
-ro.rising.maintainer=Jayzee-Zee
-ro.rising.release.type=UNOFFICIAL

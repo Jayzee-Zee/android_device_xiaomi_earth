@@ -59,11 +59,10 @@ static const std::vector<variant_info_t> variants = {
     earth_info,
     earth_la_info,
     earth_p_info,
-}
+};
 
 void vendor_load_properties() {
     if (access("/system/bin/recovery", F_OK) != 0) {
         search_variant(variants);
     }
 }
-

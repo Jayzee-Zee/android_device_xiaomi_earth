@@ -61,18 +61,9 @@ static const std::vector<variant_info_t> variants = {
     earth_p_info,
 }
 
-void vendor_load_properties()
-{
-
-    if (access("/system/bin/recovery", F_OK) != 0);
+void vendor_load_properties() {
+    if (access("/system/bin/recovery", F_OK) != 0) {
         search_variant(variants);
-
-    property_override("ro.rising.maintainer", "Jayzee-Zee");
-    property_override("ro.rising.chipset", "Hello G85");
-
-
-
-
+    }
 }
-
 

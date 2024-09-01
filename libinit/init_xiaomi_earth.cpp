@@ -66,3 +66,5 @@ void vendor_load_properties() {
         search_variant(variants);
     }
 }
+
+property_override("ro.rising.maintainer", "maintainer");

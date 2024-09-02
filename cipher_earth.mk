@@ -5,14 +5,14 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product,$(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product,$(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/xiaomi/earth/device.mk)
+$(call inherit-product,device/xiaomi/earth/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product,vendor/lineage/config/common_full_phone.mk)
 
 #cipheros
 TARGET_BOOT_ANIMATION_RES := 720

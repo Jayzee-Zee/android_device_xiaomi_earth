@@ -12,9 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common LineageOS stuff.
+TARGET_SCREEN_HEIGHT := 1650
+TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#ngising OS
+#Alphadrod
+ALPHA_BUILD_TYPE := UNOFFICIAL
+ALPHA_MAINTAINER := Jayzee
+WITH_GAPPS := false
 
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
@@ -26,17 +31,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="earth-user 14 UP1A.230105.007 V816.0.2.0.UCVMIXM release-keys"
-    RISING_CHIPSET="Helio G85" \
-    RISING_MAINTAINER="Jayzee"
-    RISING_PACKAGE_TYPE :=VANILLA_AOSP
-    TARGET_ENABLE_BLUR :=false
-    PRODUCT_NO_CAMERA := false
-    TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-    WITH_GMS := false
-    TARGET_CORE_GMS := false
-    TARGET_CORE_GMS_EXTRAS := false
-    TARGET_DEFAULT_PIXEL_LAUNCHER := false
-    TARGET_BOOT_ANIMATION_RES := 1080
+    
 
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
 

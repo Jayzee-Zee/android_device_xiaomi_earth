@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_earth.mk
+    $(LOCAL_DIR)/blaze_earth.mk
+
+COMMON_LUNCH_CHOICES := \
+    blaze_onclite-user \
+    blaze_onclite-userdebug \
+    blaze_onclite-eng

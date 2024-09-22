@@ -14,7 +14,10 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-#ngising OS
+#Blaze
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := Jayzee
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := blaze_earth
 PRODUCT_DEVICE := earth

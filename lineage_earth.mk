@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#ngising OS
+#pecel
 CUSTOM_BUILD_TYPE := Unofficial
 
 PRODUCT_NAME := lineage_earth

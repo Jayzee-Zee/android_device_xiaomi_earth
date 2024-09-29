@@ -17,7 +17,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 #pecel
 CUSTOM_BUILD_TYPE := Unofficial
 
-PRODUCT_NAME := lineage_earth
+PRODUCT_NAME := aosp_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

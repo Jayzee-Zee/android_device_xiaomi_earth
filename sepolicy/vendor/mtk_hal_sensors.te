@@ -1,6 +1,6 @@
 # Allow access to the HALs
 #Go here and replace this with
-type mtk_hal_sensors, domain, halclientdomain;
+type mtk_hal_sensors, domain, mtk_hal_sensors_exec, halclientdomain;
 hal_client_domain(mtk_hal_sensors, hal_graphics_allocator);
 
 # Allow mtk_hal_sensors to find fwk_camera_service

@@ -13,4 +13,4 @@ persist.dbg.wfc_avail_ovr=1
 zygote.critical_window.minute=10
 # Ngising OS
 
-
+ro.cipher.maintainer=Cindigokkk

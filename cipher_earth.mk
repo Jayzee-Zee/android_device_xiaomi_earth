@@ -16,7 +16,7 @@ $(call inherit-product,vendor/cipher/config/common_full_phone.mk) || $(call inhe
 #cipheros
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
-CIPHER_MAINTAINER := Jayzee
+CIPHER_GAPPS := true
 
 PRODUCT_NAME := cipher_earth
 PRODUCT_DEVICE := earth

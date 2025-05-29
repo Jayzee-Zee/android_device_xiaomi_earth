@@ -42,6 +42,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_SUPPORTS_GOOGLE_RECORDER := true
     TARGET_INCLUDE_STOCK_ARCORE := false
     TARGET_INCLUDE_STOCK_AICORE := false
+    # Force external clang (Proton)
+    TARGET_KERNEL_CLANG_COMPILE := true
+    KERNEL_TOOLCHAIN := $(TOP)/toolchains/proton-clang
 
     # To Add Bypass Charging Support (need to be adapted in DT and KT as well)
     BYPASS_CHARGE_SUPPORTED  := false
